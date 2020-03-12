@@ -1,0 +1,21 @@
+{
+  "name": "workspace-common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.13.0",
+    "react-native": "^0.61.5",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.61.20",
+    "typescript": "^3.8.3"
+  }
+}
